@@ -5,11 +5,11 @@
 MCU STM32H7xx STM32H755xx
 
 # crystal frequency
-OSCILLATOR_HZ 8000000
+OSCILLATOR_HZ 25000000
 
 define STM32_HSE_BYPASS
 
-# board ID for firmware load
+# board ID for firmware load //need to req
 APJ_BOARD_ID 139
 
 # the nucleo seems to have trouble with flashing the last sector?
